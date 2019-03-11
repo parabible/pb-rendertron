@@ -1,11 +1,14 @@
-# pb-rendertron
-Rendertron docker image to do some SSR substition
+# Rendertron in Docker for Parabible
 
-## Instructions
+If you want information on rendertron, go here: https://github.com/GoogleChrome/rendertron/. This repo gets rendertron in a docker instance (which is no longer really supported).
 
-Docker makes everything very difficult. So these instructions might go over your head.
+The distinctive feature that makes this a *parabible* rendertron is that it includes the SBL Biblit font from https://www.sbl-site.org/educational/BiblicalFonts_SBLBibLit.aspx.
 
-First you're going to want to build the image.
+# Instructions
+
+Docker makes everything very difficult. So hold onto your hats everyone.
+
+First you're going to want to build the image:
 
 ```
 docker build -t pb-rendertron/slim .
